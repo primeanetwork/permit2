@@ -1,8 +1,10 @@
 {
   "name": "@uniswap/permit2",
-  "description": "Low-overhead, next generation token approval/meta-tx system to make token approvals easier, more secure, and more consistent across applications",
+  "description": "Primea fork — independent fork of upstream Uniswap repo",
   "version": "1.0.0",
-  "bugs": "https://github.com/Uniswap/permit2/issues",
+  "bugs": {
+    "url": "https://github.com/primeanetwork/permit2/issues"
+  },
   "keywords": [
     "ethereum",
     "permit2",
@@ -11,6 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/permit2.git"
-  }
+    "url": "git+ssh://git@github.com/primeanetwork/permit2.git"
+  },
+  "homepage": "https://github.com/primeanetwork/permit2#readme"
 }
