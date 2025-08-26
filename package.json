@@ -15,5 +15,10 @@
     "type": "git",
     "url": "git+ssh://git@github.com/primeanetwork/permit2.git"
   },
-  "homepage": "https://github.com/primeanetwork/permit2#readme"
+  "homepage": "https://github.com/primeanetwork/permit2#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "primea-alpha"
+  }
 }
