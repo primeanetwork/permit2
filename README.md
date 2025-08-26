@@ -1,3 +1,5 @@
+> **Independent fork** — not affiliated with Uniswap. See NOTICE.md.
+
 # permit2
 
 Permit2 introduces a low-overhead, next-generation token approval/meta-tx system to make token approvals easier, more secure, and more consistent across applications.
