@@ -1,2 +1,15 @@
+* text=auto eol=lf
 *.sol linguist-language=Solidity
-.gas-snapshot linguist-language=Julia
+
+# lockfiles as text with LF
+package-lock.json text eol=lf
+yarn.lock text eol=lf
+pnpm-lock.yaml text eol=lf
+
+# reduce PR noise from generated artifacts
+dist/** linguist-generated
+build/** linguist-generated
+generated/** linguist-generated
+*/dist/** linguist-generated
+*/build/** linguist-generated
+*/generated/** linguist-generated
